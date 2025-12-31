@@ -1,5 +1,5 @@
 # GNN-ConsumerBehavior
-
+https://prasannamummigatti.github.io/GNN-ConsumerBehavior/user_product_cluster_interaction.html
 🚀 Consumer behavior isn’t just about products — it’s about relationships.
 
 Most analytics still look at users/consumers and products separately.
