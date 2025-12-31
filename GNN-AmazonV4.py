@@ -60,6 +60,7 @@ df["user_idx"] = df["user_id"].map(user_map)
 num_products = len(product_ids)
 num_users = len(user_ids)
 
+print(df.head())
 # =====================================================
 # 4. NODE FEATURES
 # =====================================================
@@ -74,7 +75,7 @@ product_features = (
       )
       .reindex(range(num_products), fill_value=0)
 )
-
+print(product_features.head()  )
 user_features = (
     df.groupby("user_idx")
       .agg(
@@ -83,7 +84,7 @@ user_features = (
       )
       .reindex(range(num_users), fill_value=0)
 )
-
+print(user_features.head()  )
 X_product = torch.tensor(product_features.values, dtype=torch.float)
 X_user = torch.tensor(user_features.values, dtype=torch.float)
 
