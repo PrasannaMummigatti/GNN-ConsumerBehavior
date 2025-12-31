@@ -2,7 +2,7 @@
 
 🚀 Consumer behavior isn’t just about products — it’s about relationships.
 
-Most analytics still look at users and products separately.
+Most analytics still look at users/consumers and products separately.
 But real buying behavior happens in the connections between them.
 
 That’s where Heterogeneous Graph Neural Networks (HGNNs) change the game.
@@ -56,8 +56,9 @@ You stop asking “What sells?” and start asking “What influences what?”
 📌 Key insight
 Consumer behavior is not linear.
 It’s heterogeneous, interconnected, and relational.
-
 And Heterogeneous GNNs are built exactly for that reality.
+
+Note: The model captures “who interacts with what” and “how popular a product is”, but not “what users actually say about the product”. this I may take in next step/post.
 
 #ConsumerBehavior
 #GraphNeuralNetworks
